@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        
+
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="img/logo.png" alt="logo de aura">
+            <h1 class="titulo">Encriptador de Texto</h1>
+            <p class="subtitulo">Challenge elaborado para Alura Latam</a></p>
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="¡ Ingrese el texto aqui !"></textarea>
+                <div>
+                    <h6 class="informacion"><img src="img/sig.png" class="signo">Solo letras minúsculas y sin acento</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea Class="mensaje" cols="20" rows="10"></textarea>
+                <div>          
+                    <h2 id="mensaje-copiar" class="mensaje-copiar"></h2>
+                    <h3 id="mensaje-copiar-subtitulo" class="mensaje-copiar-subtitulo"></h3> 
+                    <button class="btn-copiar" onclick="Copiar()" >Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">© Desarrollado por Carlos López Mariano | 2024</p>
+            <a href=""><img src="img/github.png" class="redes"></a> 
+            <a href=""><img src="img/linkedin.png" class="redes"></a>
+        </footer>
+        <script src="script.js"></script>   
+    </body>
+</html>
+
+
